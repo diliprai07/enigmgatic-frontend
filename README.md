@@ -44,3 +44,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## To enable husky pre-commit perfom following actions
+Add following command in husky/pre-commit file, which will be appear after installing dependecy(npm install).
+npm test
+npx lint-staged
