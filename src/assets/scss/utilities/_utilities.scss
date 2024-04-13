@@ -44,3 +44,194 @@ h6 {
 .h5 {
     font-size: 1rem;
 }
+
+// Color
+.neutral-grey-dark {
+    color: $neutrals-dark;
+}
+
+.neutral-dark {
+    color: $neutrals-dark;
+}
+
+.neutral-grey {
+    color: $neutrals-grey;
+}
+
+.neutral-grey-light {
+    color: $neutrals-grey-light;
+}
+
+.base-black {
+    color: #000000;
+}
+
+.primary-p1 {
+    color: $primary-p1;
+}
+
+.success-main {
+    color: #28A745;
+}
+
+.error-main {
+    color: #DC3545;
+}
+
+.title {
+    color: $neutrals-dark;
+}
+
+
+
+//background-color
+.bg-primary {
+    background: $primary-p1;
+}
+
+.bg-success-lighter {
+    background: $success-lighter;
+}
+
+.bg-blue-offwhite {
+    background: $blue-offwhite;
+}
+
+.bg-grey {
+    background: $neutrals-grey-light;
+}
+
+.bg-alert-lighter {
+    background: $alert-lighter;
+}
+
+.bg-blue-offwhite {
+    background: $blue-offwhite;
+}
+
+
+//borders
+.border-b {
+    border-bottom: 1px solid $neutrals-offwhite;
+}
+
+.border-1 {
+    border: 1px solid $neutrals-grey-light;
+}
+
+.border-2 {
+    border: 1px solid $neutrals-offwhite;
+}
+
+.border-3 {
+    border: 1.5px solid $neutrals-offwhite-light;
+}
+
+.border-s2 {
+    border-bottom: 2px solid $success-main;
+}
+
+.border-p2 {
+    border-bottom: 2px solid $primary-p1;
+}
+
+.border-0 {
+    border: 0 !important;
+}
+
+.divider-2 {
+    border: 1px solid #DDDDDD;
+}
+
+// gap
+
+.gap-8 {
+    gap: 8.125rem;
+}
+
+// PADDING 
+.custom-p-1 {
+    padding: 0.625rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// height/width
+
+.w-37 {
+    width: 375px;
+}
+
+.w-65 {
+    width: 652px;
+}
+
+.w-89 {
+    width: 89%;
+}
+
+.w-41 {
+    width: 441px;
+}
+
+.w-130 {
+    width: 130px;
+}
+
+.w-345 {
+    width: 345px;
+}
+
+.h-16 {
+    height: 164px;
+}
+
+.h-46 {
+    height: 104rem;
+}
+
+.h-48 {
+    height: 1180px;
+}
+
+.h-34 {
+    height: 346px;
+}
+
+.h-80 {
+    height: 800px;
+}
+
+.h-90 {
+    height: 1500px;
+}
+
+.h-1000 {
+    height: 1000px;
+}
+
+.w-518 {
+    width: 518px;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+}
